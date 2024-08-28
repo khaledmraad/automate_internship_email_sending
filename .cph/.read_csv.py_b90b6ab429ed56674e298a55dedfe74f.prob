@@ -1,0 +1,1 @@
+{"name":"Local: read_csv","url":"/home/gojo/projects/auto_email_send/read_csv.py","tests":[{"id":1724854383070,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/gojo/projects/auto_email_send/read_csv.py","group":"local","local":true}

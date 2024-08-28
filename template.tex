@@ -1,0 +1,95 @@
+
+% Letter class
+\documentclass[a4paper, 12pt]{letter}
+\usepackage{setspace}
+\usepackage{datetime}
+\setstretch{1.15}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+% Name of sender
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ top=-20mm,
+ }
+
+\name{Mrad Khaled}
+
+
+% Signature of sender
+\signature{Mrad Khaled}
+\date{}
+
+
+\begin{document}
+
+% Name and address of receiver
+\begin{letter}
+{
+\fontfamily{qhv}\selectfont
+\bfseries
+    Mrad Khaled\\
+    L'ENSI, Rectorat Manouba\\
+    khaled.mrad@ensi-uma.tn	\\ Tunisie, Monastir 	 \newline \newline
+    
+ 
+    
+}
+
+% Opening statement
+\opening { {
+\fontfamily{qhv}\selectfont
+\bfseries Objet: Candidature pour un stage d'été chez charika } \newline}
+
+% Letter body
+\fontfamily{qhv}\selectfont
+
+Je vous adresse ma candidature pour un stage d'été au sein de charika . Étudiant ingénieur en sciences de l'informatique en deuxième année à l'ENSI (Ecole nationale des sciences de l'informatique), je suis motivé pour acquérir une expérience pratique au sein de votre entreprise renommée.
+
+Mes compétences en DevOps et dans le cloud computing sont renforcées par une certification en Introduction to DevOps et AWS Cloud Practitioner, ce qui me permet de concevoir des solutions cloud sécurisées et évolutives.
+
+De plus, mon expertise en développement web, notamment dans les frameworks React, Spring Boot et Flask, me confère une approche globale pour des projets alliant sécurité, performance et convivialité.
+
+Enfin, je possède une solide expertise en cybersécurité acquise à travers ma participation active dans des compétitions telles que les CTFs (Capture The Flags).
+
+Je suis passionné par l'application pratique de mes connaissances. Mon engagement est de constamment améliorer mes compétences pour relever les défis réels dans le domaine de la technologie.
+
+je demeure à votre disposition pour fixer une date d'entretien afin de vous convaincre de mon profiler et vous fournir des informations complémentaires
+
+Je vous remercie de votre attention et vous prie d'agréer, Monsieur/Madame, mes salutations respectueuses.
+
+
+\hspace{9cm}%
+\raisebox{18.1cm}[0pt][0pt]{
+\setlength{\fboxrule}{0pt}
+  \fbox{%
+    \parbox{0.4\textwidth}{
+ 
+    \bfseries
+    blassa\\
+    charika  \\A l'attention du directeur RH de charika   \\
+      \today
+    }
+  }%
+}
+
+\hspace{13cm}%
+\raisebox{-1cm}[0pt][0pt]{
+\setlength{\fboxrule}{0pt}
+  \fbox{%
+    \parbox{0.4\textwidth}{
+   
+    \fontfamily{qhv}\selectfont
+      Cordialement,\\ \\
+    \bfseries
+      Mrad Khaled
+    }
+  }%
+}
+
+
+
+% Closing statement
+
+\end{letter}
+\end{document}
